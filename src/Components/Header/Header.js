@@ -4,7 +4,6 @@ import headset from './headset.svg';
 import power from './power.svg';
 import user from './user.svg';
 import chat from './chat.svg';
-import menulink from './menulink.svg';
 import logo from './logo.svg';
 
 const Header = (props) => {
