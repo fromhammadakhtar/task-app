@@ -1,0 +1,64 @@
+.card{
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.Container {
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
+  }  
+  .Circle {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 50%;
+  }
+  
+  .Circle p {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 15%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .cardbottom{
+    margin: 10px 0px;  
+    text-align: center;
+  }
+  
+  .cardstatus{
+      background-color: #9D9D9D;
+      color: #fff;
+      border-radius: 5%;
+      padding: 0px 2px ;
+  }
+
+  .cardbid{
+    background-color: #FEB902;
+    color: #fff;
+    border-radius: 5%;
+    padding: 0px 2px ;
+}
+
+@media (max-width: 800px) {
+  
+  
+
+
+}
+
+@media (max-width: 500px) {
+}
+
+/* Landscape  */
+@media (max-height: 500px) {
+}
+
+@media (max-height: 330px) {
+}

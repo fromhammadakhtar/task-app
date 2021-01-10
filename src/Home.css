@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  background: #e5e5e5;
+}
+
+
+.footerText {
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 0.5rem;
+}

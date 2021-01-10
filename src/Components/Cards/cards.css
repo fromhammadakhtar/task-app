@@ -1,0 +1,38 @@
+.ulCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    overflow: hidden;
+    margin: 2rem 0rem ; 
+  }
+.listCard{
+    list-style-type: none;
+  
+}
+
+.cardContainer{
+  margin: 2rem 0rem ;
+}
+
+@media (max-width: 768px) {
+
+  .ulCard {
+    grid-template-columns: repeat(2, 1fr);
+  }  
+
+}
+
+@media (max-width: 500px) {
+
+  .ulCard {
+    display: block;
+  }  
+
+}
+
+/* Landscape  */
+@media (max-height: 500px) {
+}
+
+@media (max-height: 330px) {
+}

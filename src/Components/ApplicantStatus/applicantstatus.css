@@ -1,0 +1,35 @@
+.applicantStats{
+    display: flex;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+
+
+  .applicantStats div{
+    
+    padding : 0px 20px ;
+    border-right: 1px solid #e6e6e6;
+  }
+
+  .applicantStats div:last-child{
+    border-right: none;
+  }
+
+  @media (max-width: 768px) {
+
+    .applicantStats{
+      display: none;
+    }
+
+  }
+
+  @media (max-width: 500px) {
+  }
+  
+  /* Landscape  */
+  @media (max-height: 500px) {
+  }
+  
+  @media (max-height: 330px) {
+  }
