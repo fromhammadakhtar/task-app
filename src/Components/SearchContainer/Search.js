@@ -5,15 +5,15 @@ import { Form, FormControl, Button } from 'react-bootstrap';
 
 const SearchContainer = (props) => {
   return (
-    <div className='searchContainer'>
-      <Form inline>
+    <div >
+      <Form className='searchContainer'>
         <FormControl
           type='text'
           placeholder='Search'
           className='mr-sm-2'
           onChange={props.search}
         />
-        <Button variant="light">Search</Button> 
+        <Button className="mrtop"variant="light">Search</Button> 
       </Form>
 
     </div>

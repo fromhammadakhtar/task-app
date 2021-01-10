@@ -21,7 +21,7 @@ const ApplicantStatus = (props) => {
   return (
     <Container fluid>
       <Row>
-        <Col s={3}>
+        <Col md={3} xs={0}>
           <img src={arrowicon} alt='backarrowimage' />
           <h3 style={{ display: 'inline', marginLeft: '1rem', verticalAlign: 'middle' }}>
             Applicants
